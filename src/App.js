@@ -5,6 +5,7 @@ import SettingsPage from './pages/SettingsPage';
 import NotFound from './pages/NotFound';
 import Contacts from './pages/Contacts';
 import FormPage from './pages/FormPage';
+import Registration from './pages/Registration';
 import "./App.css";
 
 const IdPage = () => {
@@ -26,7 +27,7 @@ function App() {
         <Route path='/contacts' element={<Contacts/>}/>
         <Route path='/form' element={<FormPage/>}/>
         <Route path='/tasks/:id' element={<IdPage/> }/>
-        
+        <Route path='/registration' element={<Registration/>}/>
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

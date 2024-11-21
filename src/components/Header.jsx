@@ -34,6 +34,9 @@ function Header() {
                     <li>
                         <Link to="/hasljdakjdhkjadhajsdhajksdhkjasdh">wrong page</Link>
                     </li>
+                    <li>
+                        <Link to="/registration">Регистрация</Link>
+                    </li>
                 </ul>
             </nav>
         </header>
